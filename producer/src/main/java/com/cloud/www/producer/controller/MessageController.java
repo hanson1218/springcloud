@@ -16,4 +16,10 @@ public class MessageController {
         return "Hi " + name + " ,I am from port:" + port;
     }
 
+    @GetMapping("/feigntest")
+    public String feigntest(@RequestParam("name")String name){
+        return "Hi feign test.  " + name + " ,I am from port:" + port;
+    }
+
+
 }

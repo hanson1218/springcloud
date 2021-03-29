@@ -1,4 +1,6 @@
 # springcloud
+端口：8800
+
 搭建一个Eureka注册中心，将Eureka作为一个项目启动，启动后将其作为一个Eureka的注册中心.具体步骤如下：
 （1）pom导入spring-cloud-starter-netflix-eureka-server依赖
 （2）编写application.properties配置文件
